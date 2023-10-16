@@ -4,8 +4,6 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-app = FastAPI()
-
 class Item(BaseModel):
     """Class Representing an Item"""    
     name: str
